@@ -8,12 +8,12 @@ module HelloWorld {
      *
      * @return the formatted greeting string with an exclamation mark
      */
-    static String formatGreeting(String prefix, String middle, String name) {
-        return $"{prefix}{middle}{name}!";
+    static String formatGreeting(String prefix, String name) {
+        return $"{prefix}{name}!";
     }
 
     void run(String[] args = []) {
         @Inject Console console;
-        console.print(formatGreeting(args[0], args[1], args[2]));
+        console.print(formatGreeting(args[0], args[1]));
     }
 }
