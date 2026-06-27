@@ -1,6 +1,6 @@
 # XTC Simple Hello World App Template
 
-This template is a simple starting point for creating XTC applications.
+This template is a simple starting point for creating XTC applications
 
 ## TL;DR
 
@@ -23,7 +23,7 @@ The XTC plugin and XDK version is managed in the Gradle version catalog at `grad
 xtc = "0.4.4-SNAPSHOT"
 ```
 
-You can use either release versions (e.g., `0.4.3`) or snapshot versions (e.g., `0.4.4-SNAPSHOT`).
+You can use either release versions (e.g., `0.4.3`) or snapshot versions (e.g., `0.4.4-SNAPSHOT`)
 
 ## Building and Running
 
