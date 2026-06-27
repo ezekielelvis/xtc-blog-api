@@ -1,0 +1,2 @@
+This file is for demonstrating a merge conflict in a branch.
+Edit this file on two branches to see a .
